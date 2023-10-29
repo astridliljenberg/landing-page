@@ -11,6 +11,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -28,7 +29,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 .section-one .container {
@@ -38,6 +38,26 @@ a {
 .hero,
 .image {
     flex: 1;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero .secondary,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 4px 16px;
 }
 
 .image{
