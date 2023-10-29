@@ -73,7 +73,7 @@ button {
     align-items: center;
 }
 
-.container {
+.section-two .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
