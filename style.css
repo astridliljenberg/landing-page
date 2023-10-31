@@ -134,9 +134,29 @@ a {
 
 .section-one,
 .section-two,
-.section-three {
+.section-three,
+.section-four {
     padding-left: 400px;
     padding-right: 400px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.white-border {
+    border-color: white;
+    border-width: 3px;
 }
 
 .footer {
