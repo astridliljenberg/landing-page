@@ -157,6 +157,7 @@ a {
 .section-container {
     flex: 1;
     max-width: 1200px;
+    min-width: 0;
 }
 
 .section-four {
