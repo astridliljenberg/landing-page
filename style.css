@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .logo {
@@ -35,6 +36,7 @@ a {
 
 .section-one .container {
     display: flex;
+    padding: 100px 0;
 }
 
 .hero,
@@ -114,4 +116,11 @@ button {
     color: black;
     font-style: normal;
     font-size: 24px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    padding-left: 400px;
+    padding-right: 400px;
 }
